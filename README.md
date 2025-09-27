@@ -18,6 +18,10 @@ While this model is simple and does not scale well for complex applications, it 
 - **Basic Architecture:** The neural network used is quite simple and lacks the complexity of modern NLP models.
 - **Training Data:** The model is trained on a very small dataset for demonstration purposes. It would require a much larger and more diverse dataset for practical use.
 
+## Note
+
+Since the architecture is very basic, the only inputs it can take are the words from the corpus which it is trained upon. For predicting the next word, choose a word only from the text as provided in the repository. Future work will include increasing the training dataset so as to increase the input range for predictions.
+
 ## Future Work
 
 Future work includes, but is not limited to:
@@ -26,6 +30,7 @@ Future work includes, but is not limited to:
 3. **Expanding the input dataset** to improve the model's generalization capabilities.
 4. **Fine-tuning pre-trained word embeddings** (such as Word2Vec, GloVe) using domain-specific data to better handle real-world text.
 5. **Developing a fine-tuned chatbot** that can engage in more sophisticated conversations which can generate entire texts and sentences and also can take in multi word inputs
+
 
 
 
